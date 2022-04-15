@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="messRatesWindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: lightgray;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="messRateController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="88.80000915527344" minHeight="10.0" prefHeight="86.4" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="425.6" minHeight="10.0" prefHeight="368.8000122070313" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="195.60001220703128" minHeight="0.40000000000009095" prefHeight="143.5999877929687" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <GridPane GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="294.4000244140625" minWidth="10.0" prefWidth="229.60003662109375" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="428.0" minWidth="10.0" prefWidth="370.39996337890625" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="110.40001220703125" minHeight="10.0" prefHeight="78.2" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="66.60001220703126" minHeight="9.599993896484378" prefHeight="38.600006103515625" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="122.00000610351563" minHeight="10.0" prefHeight="31.60000000000001" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="164.80000915527341" minHeight="2.7999755859374886" prefHeight="37.20003356933594" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="202.59999694824216" minHeight="10.0" prefHeight="63.59996643066407" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="130.39999999999998" minHeight="10.0" prefHeight="127.19998779296873" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <StackPane alignment="CENTER_RIGHT" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Label text="BreakFast">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets right="10.0" />
+               </GridPane.margin>
+            </StackPane>
+            <StackPane alignment="CENTER_RIGHT" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <Label text="Lunch">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets right="10.0" />
+               </GridPane.margin>
+            </StackPane>
+            <StackPane alignment="CENTER_RIGHT" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="3">
+               <children>
+                  <Label text="Dinner">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets right="10.0" />
+               </GridPane.margin>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="5" />
+            <StackPane alignment="CENTER_LEFT" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <children>
+                  <Label fx:id="ratesChangedNote">
+                     <font>
+                        <Font name="Tahoma" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <TextField fx:id="dinnerRate" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="10.0" right="240.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <TextField fx:id="lunchRate" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="10.0" right="240.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <TextField fx:id="breakfastRate" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="10.0" right="240.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </StackPane>
+         </children>
+      </GridPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <Label text="Change Mess Rates">
+               <font>
+                  <Font name="Yu Gothic Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="2">
+         <children>
+            <Button fx:id="changeRates" mnemonicParsing="false" onAction="#changeRatesAction" prefHeight="65.0" prefWidth="156.0" text="Change Rates">
+               <font>
+                  <Font name="Yu Gothic Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </StackPane>
+   </children>
+</GridPane>

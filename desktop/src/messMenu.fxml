@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="messMenuWindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="messMenuController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="194.0" minHeight="0.0" prefHeight="53.39999542236328" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="812.0" minHeight="10.0" prefHeight="583.0000366210937" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="78.0" minHeight="2.0" prefHeight="64.5999633789063" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <GridPane GridPane.rowIndex="1">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="114.0" minWidth="10.0" prefWidth="92.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="163.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="215.0" minWidth="10.0" prefWidth="165.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="207.0" minWidth="10.0" prefWidth="167.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="108.0" minWidth="6.0" prefWidth="6.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="119.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="133.0" minHeight="10.0" prefHeight="101.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="134.0" minHeight="10.0" prefHeight="98.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="151.0" minHeight="10.0" prefHeight="103.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="199.0" minHeight="10.0" prefHeight="99.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="196.0" minHeight="10.0" prefHeight="103.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="144.0" minHeight="10.0" prefHeight="111.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="117.0" minHeight="10.0" prefHeight="93.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Label text="Monday">
+                     <font>
+                        <Font name="Yu Gothic Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <Label text="Tuesday">
+                     <font>
+                        <Font name="Yu Gothic Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="3">
+               <children>
+                  <Label text="Wednesday">
+                     <font>
+                        <Font name="Yu Gothic Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="4">
+               <children>
+                  <Label text="Thrusday">
+                     <font>
+                        <Font name="Yu Gothic Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="5">
+               <children>
+                  <Label text="Friday">
+                     <font>
+                        <Font name="Yu Gothic Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="6">
+               <children>
+                  <Label text="Saturday">
+                     <font>
+                        <Font name="Yu Gothic Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="7">
+               <children>
+                  <Label text="Sunday">
+                     <font>
+                        <Font name="Yu Gothic Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+               <children>
+                  <TextField fx:id="monBreakfast1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="monBreakfast2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="monBreakfast3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <TextField fx:id="tueBreakfast1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tueBreakfast2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tueBreakfast3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <TextField fx:id="monLunch1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="monLunch2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="monLunch3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <children>
+                  <TextField fx:id="monDinner1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="monDinner2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="monDinner3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <TextField fx:id="tueLunch1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tueLunch2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tueLunch3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <children>
+                  <TextField fx:id="tueDinner1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tueDinner2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tueDinner3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <TextField fx:id="wedBreakfast1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="wedBreakfast2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="wedBreakfast3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <children>
+                  <TextField fx:id="wedLunch1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="wedLunch2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="wedLunch3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <children>
+                  <TextField fx:id="wedDinner1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="wedDinner2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="wedDinner3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <children>
+                  <TextField fx:id="thruBreakfast1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="thruBreakfast2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="thruBreakfast3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <children>
+                  <TextField fx:id="thruLunch1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="thruLunch2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="thruLunch3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <children>
+                  <TextField fx:id="thruDinner1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="thruDinner2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="thruDinner3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <children>
+                  <TextField fx:id="friBreakfast1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="friBreakfast2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="friBreakfast2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <children>
+                  <TextField fx:id="friLunch1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="friLunch2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="friLunch3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <children>
+                  <TextField fx:id="friDinner1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="friDinner2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="friDinner3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <children>
+                  <TextField fx:id="satBreakfast1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="satBreakfast2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="satBreakfast3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <children>
+                  <TextField fx:id="satLunch1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="satLunch2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="satLunch3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <children>
+                  <TextField fx:id="satDinner1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="satDinner2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="satDinner3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <children>
+                  <TextField fx:id="sunBreakfast1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="sunBreakfast2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="sunBreakfast3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <children>
+                  <TextField fx:id="sunLunch1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="sunLunch2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="sunLunch3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <children>
+                  <TextField fx:id="sunDinner1">
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="sunDinner2">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="sunDinner3">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </GridPane.margin>
+            </VBox>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <children>
+                  <Label text="BreakFast">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2">
+               <children>
+                  <Label text="Lunch">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3">
+               <children>
+                  <Label text="Dinner">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+         </children>
+      </GridPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <Label text="Change Mess Menu">
+               <font>
+                  <Font name="Yu Gothic Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="2">
+         <children>
+            <Button fx:id="changeMenu" mnemonicParsing="false" onAction="#changeMenuAction" text="Change Menu">
+               <font>
+                  <Font name="Yu Gothic Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </StackPane>
+   </children>
+</GridPane>
