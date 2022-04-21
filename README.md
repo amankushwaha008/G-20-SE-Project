@@ -6,5 +6,3 @@ The Group members are-
 2. Laxit Parmar
 3. Harsh Chenani
 4. Kshitij Singh
-
-The link for the test file and work description is - https://docs.google.com/document/d/17bhV80o3xK2rC1gxDalBbYeQG_mkLegq6Gcjw4oLby4/edit?usp=sharing
