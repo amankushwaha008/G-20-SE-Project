@@ -6,7 +6,7 @@ const {LocalStorage}=require("node-localstorage");
 var localstorage=new LocalStorage("./scratch");
 const alert=require("alert");
 
-
+const Messmenu =require('../mess')
 
 
 
@@ -121,5 +121,7 @@ exports.getManagerDues=async(req,res,next)=>{
 }
 
 exports.getMessMenu=async(req,res,next)=>{
-    res.render("mess-menu");
+    const messmenu=await Messmenu.find({});
+    console.log(messmenu)
+    res.render("mess-menu",{messmenu});
 }

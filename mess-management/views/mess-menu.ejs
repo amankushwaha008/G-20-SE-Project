@@ -26,7 +26,7 @@
     <nav class="navbar ">
         <!-- navbar-light bg-light -->
         <div class="container-fluid">
-            <a class="navbar-brand" href="management-home.html">
+            <a class="navbar-brand" href="/studentHome">
                 Home
             </a>
         </div>
@@ -35,45 +35,62 @@
     <h4 class="page-title">Mess Menu</h4>
 
 
-    <div class="row" style="margin-top:6%; margin-left: 20%;">
-
+    <div class="row" style="margin-top:3%; margin-left: 20%;">
         <div class="col-sm-6">
             <div class="card" style=" border-color: black; width: 25em;">
                 <div class="card-body card-img-overlay">
-                    <h5 class="card-title " style="text-align: center;">MONDAY</h5>
+                    <h5 class="card-title " style="text-align: center;"><%=messmenu[0].day%></h5>
                     <h6 class="card-subtitle">Breakfast</h6>
                     <p class="card-text monday-breakfast">
-                        Breakfast menu
+                        <%=messmenu[0].b1%>,
+                        <%=messmenu[0].b2%>,
+                        <%=messmenu[0].b3%>
                     </p>
+
                     <h6 class="card-subtitle" style="text-decoration: #0a0a0a;">Lunch</h6>
                     <p class="card-text monday-lunch">
-                        Lunch Menu  
+                        <%=messmenu[0].l1%>,
+                        <%=messmenu[0].l2%>,
+                        <%=messmenu[0].l3%>  
                     </p>
+
                     <h6 class="card-subtitle">Dinner</h6>
                     <p class="card-text monday-dinner">
-                        Dinner Menu
+                         <%=messmenu[0].d1%>,
+                         <%=messmenu[0].d2%>,
+                         <%=messmenu[0].d3%>
                     </p>
+
                 </div>
             </div>
         </div>
-
+     
 
         <div class="col-sm-6">
             <div class="card" style=" border-color: black; width: 25em;">
                 <div class="card-body card-img-overlay">
-                    <h5 class="card-title" style="text-align: center;">TUESDAY</h5>
+                    <h5 class="card-title" style="text-align: center;"> <%=messmenu[1].day%></h5>
                     <h6 class="card-subtitle">Breakfast</h6>
                     <p class="card-text tuesday-breakfast">
-                        Breakfast menu
+                        <%=messmenu[1].b1%>,
+                        <%=messmenu[1].b2%>,
+                        <%=messmenu[1].b3%>
                     </p>
+
                     <h6 class="card-subtitle" style="text-decoration: #0a0a0a;">Lunch</h6>
                     <p class="card-text tuesday-lunch">
-                        Lunch Menu  
+                        <%=messmenu[1].l1%>,
+                        <%=messmenu[1].l2%>,
+                        <%=messmenu[1].l3%>   
                     </p>
+
                     <h6 class="card-subtitle">Dinner</h6>
                     <p class="card-text tuesday-dinner">
-                        Dinner Menu
+                        <%=messmenu[1].d1%>,
+                        <%=messmenu[1].d2%>,
+                        <%=messmenu[1].d3%>
                     </p>
+
                 </div>
             </div>
         </div> 
@@ -85,19 +102,28 @@
         <div class="col-sm-6">
             <div class="card" style=" border-color: black; width: 25em;">
                 <div class="card-body card-img-overlay">
-                    <h5 class="card-title" style="text-align: center;">WEDNESDAY</h5>
+                    <h5 class="card-title " style="text-align: center;"><%=messmenu[2].day%></h5>
                     <h6 class="card-subtitle">Breakfast</h6>
                     <p class="card-text wednesday-breakfast">
-                        Breakfast menu
+                        <%=messmenu[2].b1%>,
+                        <%=messmenu[2].b2%>.
+                        <%=messmenu[2].b3%>
                     </p>
+
                     <h6 class="card-subtitle" style="text-decoration: #0a0a0a;">Lunch</h6>
-                    <p class="card-tex wednesday-lunch">
-                        Lunch Menu  
+                    <p class="card-text wednesday-lunch">
+                         <%=messmenu[2].l1%>,
+                         <%=messmenu[2].l2%>,
+                         <%=messmenu[2].l3%>   
                     </p>
+
                     <h6 class="card-subtitle">Dinner</h6>
-                    <p class="card-text wednesday-dinner">   
-                        Dinner Menu
+                    <p class="card-text wednesday-dinner">
+                         <%=messmenu[2].d1%>,
+                         <%=messmenu[2].d2%>,
+                         <%=messmenu[2].d3%>
                     </p>
+
                 </div>
             </div>
         </div>
@@ -106,19 +132,28 @@
         <div class="col-sm-6">
             <div class="card" style=" border-color: black; width: 25em;">
                 <div class="card-body card-img-overlay">
-                    <h5 class="card-title" style="text-align: center;">THURSDAY</h5>
+                    <h5 class="card-title" style="text-align: center;"> <%=messmenu[3].day%></h5>
                     <h6 class="card-subtitle">Breakfast</h6>
                     <p class="card-text thursday-breakfast">
-                        Breakfast menu
+                        <%=messmenu[3].b1%>,
+                        <%=messmenu[3].b2%>,
+                        <%=messmenu[3].b3%>
                     </p>
+
                     <h6 class="card-subtitle" style="text-decoration: #0a0a0a;">Lunch</h6>
                     <p class="card-text thursday-lunch">
-                        Lunch Menu  
+                        <%=messmenu[3].l1%>,
+                        <%=messmenu[3].l2%>,
+                        <%=messmenu[3].l3%>   
                     </p>
+
                     <h6 class="card-subtitle">Dinner</h6>
                     <p class="card-text thursday-dinner">
-                        Dinner Menu
+                        <%=messmenu[3].d1%>,
+                        <%=messmenu[3].d2%>,
+                        <%=messmenu[3].d3%>
                     </p>
+
                 </div>
             </div>
         </div> 
@@ -130,19 +165,28 @@
         <div class="col-sm-6">
             <div class="card" style=" border-color: black; width: 25em;">
                 <div class="card-body card-img-overlay">
-                    <h5 class="card-title" style="text-align: center;">FRIDAY</h5>
+                    <h5 class="card-title " style="text-align: center;"><%=messmenu[4].day%></h5>
                     <h6 class="card-subtitle">Breakfast</h6>
                     <p class="card-text friday-breakfast">
-                        Breakfast menu
+                        <%=messmenu[4].b1%>,
+                        <%=messmenu[4].b2%>,
+                        <%=messmenu[4].b3%>
                     </p>
+
                     <h6 class="card-subtitle" style="text-decoration: #0a0a0a;">Lunch</h6>
                     <p class="card-text friday-lunch">
-                        Lunch Menu  
+                         <%=messmenu[4].l1%>,
+                         <%=messmenu[4].l2%>,
+                         <%=messmenu[4].l3%> 
                     </p>
+   
                     <h6 class="card-subtitle">Dinner</h6>
-                    <p class="card-text friday-dinner">   
-                        Dinner Menu
+                    <p class="card-text friday-dinner">
+                        <%=messmenu[4].d1%>,
+                        <%=messmenu[4].d2%>,
+                        <%=messmenu[4].d3%>
                     </p>
+   
                 </div>
             </div>
         </div>
@@ -151,49 +195,70 @@
         <div class="col-sm-6">
             <div class="card" style=" border-color: black; width: 25em;">
                 <div class="card-body card-img-overlay">
-                    <h5 class="card-title" style="text-align: center;">SATURDAY</h5>
+                    <h5 class="card-title" style="text-align: center;"> <%=messmenu[5].day%></h5>
                     <h6 class="card-subtitle">Breakfast</h6>
                     <p class="card-text saturday-breakfast">
-                        Breakfast menu
+                        <%=messmenu[5].b1%>,
+                        <%=messmenu[5].b2%>,
+                        <%=messmenu[5].b3%>
                     </p>
+        
                     <h6 class="card-subtitle" style="text-decoration: #0a0a0a;">Lunch</h6>
                     <p class="card-text saturday-lunch">
-                        Lunch Menu  
+                        <%=messmenu[5].l1%>,
+                        <%=messmenu[5].l2%>,
+                        <%=messmenu[5].l3%>    
                     </p>
+    
                     <h6 class="card-subtitle">Dinner</h6>
                     <p class="card-text saturday-dinner">
-                        Dinner Menu
+                        <%=messmenu[5].d1%>,
+                        <%=messmenu[5].d2%>,
+                        <%=messmenu[5].d3%>
                     </p>
+       
                 </div>
             </div>
         </div> 
     </div>
 
-    <div class="row" style="margin-top:16%; margin-left: 38%;">
+    <div class="row" style="margin-top:18%; margin-left: 36%;">
 
         <div class="col-sm-6">
             <div class="card" style=" border-color: black; width: 25em;">
                 <div class="card-body card-img-overlay">
-                    <h5 class="card-title" style="text-align: center;">SUNDAY</h5>
+                    <h5 class="card-title" style="text-align: center;"><%=messmenu[6].day%></h5>
                     <h6 class="card-subtitle">Breakfast</h6>
                     <p class="card-text sunday-breakfast">
-                        Breakfast menu
+                        <%=messmenu[6].b1%>,
+                        <%=messmenu[6].b2%>,
+                        <%=messmenu[6].b3%>
                     </p>
+       
                     <h6 class="card-subtitle" style="text-decoration: #0a0a0a;">Lunch</h6>
                     <p class="card-text sunday-lunch">
-                        Lunch Menu  
+                        <%=messmenu[6].l1%>,
+                        <%=messmenu[6].l2%>,
+                        <%=messmenu[6].l3%> 
                     </p>
+                  
                     <h6 class="card-subtitle">Dinner</h6>
                     <p class="card-text sunday-dinner">   
-                        Dinner Menu
+                        <%=messmenu[6].d1%>,
+                        <%=messmenu[6].d2%>,
+                        <%=messmenu[6].d3%>
                     </p>
+                
                 </div>
             </div>
         </div>
     </div>
 
-    <div style="margin-top: 100px;">
+    <div">
 <br>
+<p style="margin-top: 200px;">
+
+</p>
     </div>
 
     <style>
@@ -211,7 +276,7 @@
     
         .page-title {
             margin-left: 47%;
-            margin-top: 1%;
+            margin-top: 2%;
         }
     
         .row {

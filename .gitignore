@@ -1,4 +1,5 @@
 /.vscode
 /folder
 /mess-management/node_modules
+/mess-management/package-lock.json
 /desktop/.vscode 
